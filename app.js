@@ -161,11 +161,122 @@
 // document.write("Total cost to buy 5 tickets is " + calc);
 
 //5 
+// document.write("<h1>Table of 5</h1>");
+// let table = 5;
+// let table1 = table * 1;
+// document.write("<p> 5 x 1 = " + table1 + "</p>")
+// let table2 = table * 2;
+// document.write("<p> 5 x 2 = " + table2 + "</p>");
+// let table3 = table * 3;
+// document.write("<p> 5 x 3 = " + table3 + "</p>");
+// let table4 = table * 4;
+// document.write("<p> 5 x 4 = " + table4 + "</p>");
+// let table5 = table * 5;
+// document.write("<p> 5 x 5 = " + table5 + "</p>");
+// let table6 = table * 6;
+// document.write("<p> 5 x 6 = " + table6 + "</p>");
+// let table7 = table * 7;
+// document.write("<p> 5 x 7 = " + table7 + "</p>");
+// let table8 = table * 8;
+// document.write("<p> 5 x 8 = " + table8 + "</p>");
+// let table9 = table * 9;
+// document.write("<p> 5 x 9 = " + table9 + "</p>");
+// let table10 = table * 10;
+// document.write("<p> 5 x 10 = " + table10 + "</p>");
+
+//6
+// let claus = 25;
+// let fahrenheit = (claus * 9 / 5) + 32;
+// document.write("<p>" + claus + "°C is " + fahrenheit + "°F" +"</p>");
+
+// let fahrenheit2 = 70;
+// let celsius2 = ((fahrenheit2 - 32) * 5) / 9;
+// document.write(fahrenheit + "°F is " + claus + "°C");
+
+
+//7
+// let product1 = "Laptop";
+// let price1 = 50000;
+// let quantity1 = 2;
+
+// let product2 = "Headphone";
+// let price2 = 5000;
+// let quantity2 = 1;
+
+// let subtotal1 = price1 * quantity1;
+// let subtotal2 = price2 * quantity2;
+// let total = subtotal1 + subtotal2;
+// let discount = total > 50000 ? total * 0.1 : 0;
+// let finalTotal = total - discount;
+
+// document.write("<p>" + `Product: ${product1}, Quantity: ${quantity1}, Subtotal: Rs.${subtotal1}` +"</p>");
+// document.write("<p>" + `Product: ${product2}, Quantity: ${quantity2}, Subtotal: Rs.${subtotal2}` +"</p>");
+// document.write("<p>" + `Total: Rs.${total}` +"</p>");
+// document.write("<p>" + `Discount: Rs.${discount}` +"</p>");
+// document.write("<p>" + `Final Total: Rs.${finalTotal}` +"</p>");
+
+//----------------------------------END---------------------------------
 
 
 
 
+//Chapter#6-9 --------------- Math Expression
+//1
+// document.write("Result");
+// let a = 10;
+// document.write ("<p> The Value of a is " + a +  "</p>");
+// a = ++a;
+// document.write("<p> The Value of ++a is " + a + "</p>");
+// document.write("<p> Now the Value of a is " + a + "</p>");
+// a = a++;
+// document.write('')
+// document.write("<p> The Value of a++ is " + a + "</p>");
+// document.write("<p> Now the Value of a is " + a + "</p>");
+// a = --a;
+// document.write("");
+// document.write("<p> The Value of --a is " + a + "</p>");
+// document.write("<p> Now the Value of a is " + a + "</p>");
+// a = a--;
+// document.write("");
+// document.write("<p> The Value of a-- is " + a + "</p>");
+// document.write("<p> Now the Value of a is " + a + "</p>");
 
+//2
+// let a = 2, b = 1;
+// let result = (--a - --b + ++b + b--);
 
+// document.write("<p> a is " + a + ";</p>");
+// document.write("<p> b is " + b + ";</p>");
+// document.write("<p> Result is " + result + ";</p>");
 
+//3
+// let Name = prompt("What is your Name?");
+// alert("Hello, " + Name + "! Welcome to our Website.")
+
+//4
+// let numWant = prompt("Enter a number for multiplication table:", 5);
+// document.write("<h2>Multiplication Table of " + numWant + "</h2>");
+// for (var i = 1; i <= 10; i++) {
+//   document.write(numWant + " x " + i + " = " + numWant * i + "<br>");
+// }
+
+//5
+let m = "Math";
+let e = "English";
+let u = "Urdu";
+let totalMarks = 100;
+let obtMark1 = 70;
+let obtMark2 = 68;
+let Marks = (totalMarks + 200);
+let obtained = (obtMark1 + obtMark2)
+
+let calc1 = (obtMark1 / totalMarks) * 100;
+let calc2 = (obtMark2 / totalMarks) * 100;
+let percentage = (calc2 / calc1) * 100
+
+document.write("<h1>Subject total marks obtained marks percentage</h1>")
+document.write(m + " " + totalMarks + " " + obtMark1 + " " + calc1 + "%" +"<br>");
+document.write(e + " " + totalMarks + " " + obtMark2 + " " + calc2 + "%" +"<br>");
+document.write(u + " " + totalMarks + " " + obtMark2 + " " + calc2 + "%" + "<br>");
+document.write( " " + Marks + " " + obtained + " " + percentage + "%" );
 
