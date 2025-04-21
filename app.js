@@ -5,9 +5,6 @@
 
 //---------------------------------END------------------------------
 
-
-
-
 //chapter#2 -------------------Variables For Strings.
 //1;-
 // var userName = 'Ali';
@@ -21,7 +18,7 @@
 // let message = "Hello World!";
 // alert(message);
 
-// //4 
+// //4
 // let Name = "John";
 // let age = 16;
 // let work = "Certificate Mobile applicant Development";
@@ -37,11 +34,11 @@
 // let email = "abbasi@.com";
 // alert("This is my email address " + "" + email);
 
-//7 
+//7
 // let book = "A smarter way to learn javascript";
 // alert("I am trying to learn from the Book " + book);
 
-//8 
+//8
 // let display = "Yah! I can write HTML content through Javascript";
 // document.write(display);
 
@@ -52,15 +49,12 @@
 
 //---------------------------------END------------------------------
 
-
-
-
 //Chapter#3 ------------- Variables For Number.
 //1
 // let age = 19;
 // alert("I am " + age + " years old.");
 
-//2 
+//2
 // let visit = 14;
 // alert("You have visit this website " + visit + " times");
 
@@ -76,9 +70,6 @@
 // document.write(visitorName + " ordered " + productTitle + " total quantity is " + quantity + " in XYZ store");
 
 //----------------------------------END---------------------------------
-
-
-
 
 //Chapter#4 ----------------Variables Names: Legal & Illegal
 //1
@@ -107,9 +98,6 @@
 // document.write("<h4>Variable should not be JS keywords</h4>");
 
 //----------------------------------END---------------------------------
-
-
-
 
 //Chapter#5 --------------- Math Expression
 // 1
@@ -160,7 +148,7 @@
 
 // document.write("Total cost to buy 5 tickets is " + calc);
 
-//5 
+//5
 // document.write("<h1>Table of 5</h1>");
 // let table = 5;
 // let table1 = table * 1;
@@ -193,7 +181,6 @@
 // let celsius2 = ((fahrenheit2 - 32) * 5) / 9;
 // document.write(fahrenheit + "°F is " + claus + "°C");
 
-
 //7
 // let product1 = "Laptop";
 // let price1 = 50000;
@@ -216,9 +203,6 @@
 // document.write("<p>" + `Final Total: Rs.${finalTotal}` +"</p>");
 
 //----------------------------------END---------------------------------
-
-
-
 
 //Chapter#6-9 --------------- Math Expression
 //1
@@ -261,22 +245,235 @@
 // }
 
 //5
-let m = "Math";
-let e = "English";
-let u = "Urdu";
-let totalMarks = 100;
-let obtMark1 = 70;
-let obtMark2 = 68;
-let Marks = (totalMarks + 200);
-let obtained = (obtMark1 + obtMark2)
+// let m = "Math";
+// let e = "English";
+// let u = "Urdu";
+// let totalMarks = 100;
+// let obtMark1 = 70;
+// let obtMark2 = 68;
+// let Marks = (totalMarks + 200);
+// let obtained = (obtMark1 + obtMark2)
 
-let calc1 = (obtMark1 / totalMarks) * 100;
-let calc2 = (obtMark2 / totalMarks) * 100;
-let percentage = (calc2 / calc1) * 100
+// let calc1 = (obtMark1 / totalMarks) * 100;
+// let calc2 = (obtMark2 / totalMarks) * 100;
+// let percentage = (calc2 / calc1) * 100
 
-document.write("<h1>Subject total marks obtained marks percentage</h1>")
-document.write(m + " " + totalMarks + " " + obtMark1 + " " + calc1 + "%" +"<br>");
-document.write(e + " " + totalMarks + " " + obtMark2 + " " + calc2 + "%" +"<br>");
-document.write(u + " " + totalMarks + " " + obtMark2 + " " + calc2 + "%" + "<br>");
-document.write( " " + Marks + " " + obtained + " " + percentage + "%" );
+// document.write("<h1>Subject total marks obtained marks percentage</h1>")
+// document.write(m + " " + totalMarks + " " + obtMark1 + " " + calc1 + "%" +"<br>");
+// document.write(e + " " + totalMarks + " " + obtMark2 + " " + calc2 + "%" +"<br>");
+// document.write(u + " " + totalMarks + " " + obtMark2 + " " + calc2 + "%" + "<br>");
+// document.write( " " + Marks + " " + obtained + " " + percentage + "%" );
 
+//----------------------------------END---------------------------------
+
+//Chapter# 9-11 --------------- User Input & Conditional statement.
+//1
+// let city = "Karachi";
+// let enter = prompt("Enter Your city");
+
+// if(enter === city){
+//     document.write("Welcome! to the city of lights");
+// }
+
+//2
+// let gender = "Male";
+// let pro = prompt("Gender");
+
+// if(pro === gender){
+//     document.write("Good Morning, Sir")
+// }else {
+//     document.write("Good Morning, ma'am");
+// }
+
+//3
+// let colors = prompt("Enter Traffic light color (Red):");
+// let colors1 = prompt("Enter Traffic light color (Green):");
+// let colors2 = prompt("Enter Traffic light color (Yellow):");
+// let message = "";
+
+// if (colors.toLowerCase === "Red") {
+//   message = "Must Stop";
+// } else if (colors1.toLowerCase === "Green") {
+//   message = "Ready to move";
+// } else if (colors2.toLowerCase === "Yellow") {
+//   message = "Move now";
+// } else {
+//   message = "Invalid color!";
+// }
+
+// let tableHtml = `
+//     <table class="table table-bordered table-striped table-hover">
+//         <thead class="table-dark">
+//             <tr>
+//                 <th>Signal Color</th>
+//                 <th>Message</th>
+//             </tr>
+//         </thead>
+//         <tbody>
+//             <tr>
+//                 <td class="text-danger"><strong>Red</strong></td>
+//                 <td>Must Stop</td>
+//             </tr>
+//             <tr>
+//                 <td class="text-warning"><strong>Green</strong></td>
+//                 <td>Ready to move</td>
+//             </tr>
+//             <tr>
+//                 <td class="text-success"><strong>Yellow</strong></td>
+//                 <td>Move now</td>
+//             </tr>
+//         </tbody>
+//         <tfoot class="table-info">
+//             <tr>
+//                 <td><strong>You entered:</strong></td>
+//                 <td>${message}</td>
+//             </tr>
+//         </tfoot>
+//     </table>
+// `;
+// document.write(tableHtml);
+
+//4
+// let takeInp = +prompt("Enter your fuel");
+
+// if(0.25 >= takeInp){
+//     alert("Please refill the fuel of your car");
+// }else {
+//     alert("Your fuel is on the way");
+// }
+
+//5
+//part-a
+// let a = 4
+// if(++a === 5){
+//     alert("Given condition of variable is true"); //true
+// }
+
+//part-b
+// let b = 82;
+// if(b++ === 83){
+//     alert("Given condition of variable is true"); //False
+// }
+
+//part-c
+// let c = 12;
+// if(c++ === 13){
+//     alert("Condition 1 is true"); //false
+// };
+// if(c === 13){
+//     alert("Condition 2 is true"); //true
+// };
+// if(++c === 14){
+//     alert("Condition 3 is true"); //true
+// };
+// if(c === 14){
+//     alert("Condition 4 is true"); //true
+// }
+
+//part-d
+// let materialCost = 2000;
+// let laborCost = 2000;
+// let totalCost = materialCost + laborCost;
+// if(totalCost === materialCost + laborCost){
+//     alert("The cost equals");  //true
+// }
+
+//part-e
+// if(true){
+//     alert("true");  //This code is run
+// };
+// if(false){
+//     alert("False")  //Not execute
+// };
+
+// //part-f
+// if("car" < "car"){
+//     alert("Car is smaller than car");  //False
+// };
+
+//6
+function calculation() {
+  let english = +prompt("Enter your english score");
+  let urdu = +prompt("Enter your urdu score");
+  let maths = +prompt("Enter your maths score");
+  let totalMarks = 300;
+  let obtained = english + urdu + maths;
+  let percent = (obtained / totalMarks) * 100;
+
+  let message = "";
+  let grade = "";
+  let remarks = "";
+  let message1 = "";
+  let grade1 = "";
+  let remarks1 = "";
+  let message2 = "";
+  let grade2 = "";
+  let remarks2 = "";
+  let message3 = "";
+  let grade3 = "";
+  let remarks3 = "";
+  let highlight = "";
+  let highlight1 = "";
+  let highlight2 = "";
+  let highlight3 = "";
+
+  if (percent >= 80) {
+    grade = "A-one";
+    remarks = "Brilliant";
+    highlight = "table-success";
+  }  else if (percent >= 70) {
+    grade1 = "A";
+    remarks1 = "Very Good";
+    highlight1 = "table-success";
+  } else if (percent >= 60) {
+    grade2 = "B";
+    remarks2 = "You need to improve";
+    highlight2 = "table-success";
+  } else {
+    message3 = "Less then 50";
+    grade3 = "Fail";
+    remarks3 = "Sorry";
+    highlight3 = "table-danger";
+  }
+
+  document.write(`
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+      <div class="container d-flex justify-content-center align-items-center">
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Percentage</th>
+                    <th>Grade</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr class="${highlight}">
+                    <td>Greater than 80</td>
+                    <td>A-one</td>
+                    <td>Excellent</td>
+                </tr>
+                <tr class="${highlight1}">
+                    <td>Greater than 70</td>
+                    <td>A</td>
+                    <td>Good</td>
+                </tr>
+                <tr class="${highlight2}">
+                    <td>Greater than 60</td>
+                    <td>B</td>
+                    <td>You need to improve</td>
+                </tr>
+                <tr class="${highlight3}">
+                    <td>Greater than 50</td>
+                    <td>Fail</td>
+                    <td>sorry</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    `);
+}
+
+calculation();
